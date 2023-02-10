@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "484581390327",
+    "project_id": "lolapp-b33ae",
+    "storage_bucket": "lolapp-b33ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:484581390327:android:debd9379cd30e8c90e60f2",
+        "android_client_info": {
+          "package_name": "com.example.lolapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "484581390327-e6l0gdu221e1qo9to2noiguh0phjddic.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfGavPbMIp-4oK-EFxUJrGX7XpMb0Bveo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "484581390327-e6l0gdu221e1qo9to2noiguh0phjddic.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

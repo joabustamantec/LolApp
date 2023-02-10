@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_item"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="Mantenedor" />
+
+    <item
+        android:id="@+id/navigation_lista"
+        android:icon="@drawable/ic_baseline_currency_bitcoin_24"
+        android:title="Items" />
+    <item
+        android:id="@+id/navigation_main"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home" />
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_baseline_group_24"
+        android:title="Campeones" />
+    <item
+        android:id="@+id/navigation_campeones"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="Mantenedor" />
+
+</menu>

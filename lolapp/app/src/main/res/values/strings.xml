@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name" >Lolapp</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_home">Campeones</string>
+    <string name="title_dashboard">Mantenedor de Items</string>
+    <string name="title_notifications">Mantenedor de Campeones</string>
+    <string name="title_activity_navigation_home">NavigationHome</string>
+    <string name="prefs_file" />
+</resources>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/yone"
+        android:scaleType="centerCrop"></ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:src="@drawable/emblemchallenger"
+            android:layout_marginBottom="150dp"></ImageView>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/dorado"
+                android:text="Campeón: "
+                android:textColor="@color/black"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textSize="25dp"></TextView>
+
+            <TextView
+                android:id="@+id/TextViewNombreCampeon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/dorado"
+                android:text="TextView"
+                android:textColor="@color/black"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textSize="25dp"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/dorado"
+                android:text="Rol: "
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"></TextView>
+
+            <TextView
+                android:id="@+id/TextViewRolCampeon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/dorado"
+                android:text="TextView"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/dorado"
+                android:text="Posición: "
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"></TextView>
+
+            <TextView
+                android:id="@+id/TextViewPosicionCampeon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/dorado"
+                android:text="TextView"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"></TextView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
